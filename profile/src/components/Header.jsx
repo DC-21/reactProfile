@@ -1,29 +1,30 @@
 import React from 'react'
+import logo from '../images/png/logo-color.png'
 
 const Header = () => {
   return (
-    <header className="bg-gray-900">
-      <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
+    <header className="bg-gray-900 w-full flex">
+      <nav className="container mx-auto px-4 sm:px-6 lg:px-8 w-full flex">
+        <div className="flex items-center justify-between h-20 w-full">
+          <div className="flex items-center w-full">
             <a href="#" className="flex-shrink-0">
-              <span className="sr-only">Logo</span>
-              {/* Insert your logo here */}
+              <img src={logo} alt="Logo" className="h-20 w-20 object-contain"/>
             </a>
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
-                <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
-                <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+            <div className="hidden md:block justify-center">
+              <div className="ml-10 flex  space-x-4 items-center">
+              <input type="text" placeholder="Search" className="border border-gray-400 rounded py-2 px-4 mr-2"/>
+                <a href="#" className="text-gray-300  hover:bg-blue-100 hover:text-black text-large font-medium py-2 px-4 border border-gray-400 rounded shadow">Home</a>
+                <a href="#" className="text-gray-300  hover:bg-blue-100 hover:text-black text-large font-medium py-2 px-4 border border-gray-400 rounded shadow">About</a>
+                <a href="#" className="text-gray-300  hover:bg-blue-100 hover:text-black text-large font-medium py-2 px-4 border border-gray-400 rounded shadow">Services</a>
+                <a href="#" className="text-gray-300  hover:bg-blue-100 hover:text-black text-large font-medium py-2 px-4 border border-gray-400 rounded shadow">Contact</a>
               </div>
             </div>
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center md:ml-6">
               {/* Insert any additional header items here */}
-              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Sign In
+              <button className="bg-white hover:bg-blue-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Home
               </button>
             </div>
           </div>
