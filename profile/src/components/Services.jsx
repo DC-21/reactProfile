@@ -47,7 +47,7 @@ An excellent AI chatbot programmer designs intuitive, responsive conversational 
           <img className="h-40 rounded w-full object-cover object-center mb-6" alt="mob" src={mob}/>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">WebDevelopment</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Web Design</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="leading-relaxed text-base">As an Excellent web design i design pleasing, user-friendly, and accessible websites.</p>
         </div>
       </div>
     </div>
