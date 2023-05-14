@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Services from './components/Services'
 import Hero from './components/Hero'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <Services/>
       <Contact/>
+      <Footer/>
    </div>
   )
 }
