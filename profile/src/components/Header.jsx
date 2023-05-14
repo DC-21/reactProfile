@@ -6,11 +6,11 @@ import { BsSearch } from 'react-icons/bs';
 const Header = () => {
   return (
     <header className="bg-gray-900 w-full flex">
-      <nav className="container mx-auto px-4 sm:px-6 lg:px-8 w-full flex">
+      <nav className="container mx-auto px-2 md:px-4 lg:px-8 w-full flex">
         <div className="flex items-center justify-between h-20 w-full">
           <div className="flex items-center w-full justify-between">
             <a href="#" className="flex-shrink-0">
-              <img src={logo} alt="Logo" className="h-20 w-20 object-contain hover:animate-pulse"/>
+              <img src={logo} alt="Logo" className=" h-16 md:h-20 w-16 md:w-20 object-contain hover:animate-pulse"/>
             </a>
             <div className="hidden md:block justify-center">
             <div className="ml-10 flex  space-x-4 items-center">
