@@ -12,7 +12,7 @@ function App() {
    <div>
       <Header />
       <Hero/>
-      <Services />
+      <Services/>
    </div>
   )
 }
