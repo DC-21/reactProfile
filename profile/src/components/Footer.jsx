@@ -24,7 +24,7 @@ const Footer = () => {
             <a className="text-gray-600 hover:text-gray-800">WebDevelopment</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">pentesting</a>
+            <a className="text-gray-600 hover:text-gray-800">Pen testing</a>
           </li>
           <li>
             <a className="text-gray-600 hover:text-gray-800">AI & Automation</a>
