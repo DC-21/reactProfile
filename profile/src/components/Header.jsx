@@ -5,7 +5,7 @@ import { BsSearch } from 'react-icons/bs';
 
 const Header = () => {
   return (
-    <header className="bg-gray-900 w-full flex">
+    <header className="bg-gray-900 w-full flex items-center">
       <nav className="container mx-auto px-2 md:px-4 lg:px-8 w-full flex">
         <div className="flex items-center justify-between h-20 w-full">
           <div className="flex items-center w-full justify-between">
@@ -16,7 +16,7 @@ const Header = () => {
             <div className="ml-10 flex  space-x-4 items-center">
             <input type="text" placeholder="Search" className="bg-gray-900 border-b-2 border-gray-400 py-2 px-4 mr-2 text-white focus:outline-none" />
             <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
-            <BsSearch />
+            
             </button>
 
                 <a href="#" className="text-gray-300  hover:bg-blue-100 hover:text-black text-large font-medium py-2 px-4 rounded shadow">Home</a>
@@ -25,10 +25,13 @@ const Header = () => {
                 <a href="#" className="text-gray-300  hover:bg-blue-100 hover:text-black text-large font-medium py-2 px-4 rounded shadow">Contact</a>
               </div>
             </div>
+            <div className="block md:hidden space-y-1 cursor-pointer p-4 rounded-md hover:border hover:border-gray-800 items-center justify-center">
+              <div className='w-5 h-[0.1rem] bg-gray-300'></div>
+              <div className='w-5 h-[0.1rem] bg-gray-300'></div>
+              <div className='w-5 h-[0.1rem] bg-gray-300'></div>
+            </div>
           </div>
-          <div className="hidden md:block">
-            
-          </div>
+          
         </div>
       </nav>
     </header>
