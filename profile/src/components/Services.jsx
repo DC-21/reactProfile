@@ -29,7 +29,7 @@ const Services = () => {
           <img className="h-40 rounded w-full object-cover object-center mb-6" alt="mac" src={mac}/>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">CyberSecurity</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Web and Server pentesting</h2>
-          <p className="leading-relaxed text-base">As an excellent web and server pentester finds and secures vulnerabilities effectively.</p>
+          <p className="leading-relaxed text-base">As an excellent web and server pentester i find and secures vulnerabilities effectively.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
@@ -37,7 +37,9 @@ const Services = () => {
           <img className="h-40 rounded w-full object-cover object-center mb-6" alt="web" src={web}/>
           <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font"> Automation & AI</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">AI chatbots</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="leading-relaxed text-base">ChatGPT
+
+An excellent AI chatbot programmer designs intuitive, responsive conversational experiences efficiently.</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
